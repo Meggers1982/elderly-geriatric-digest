@@ -277,7 +277,7 @@ def fetch_doi_content(doi: str) -> str:
         headers = {
             "User-Agent": (
                 "Mozilla/5.0 (compatible; research-digest-bot/1.0; "
-                "+https://github.com/Meggers1982/aging-longevity-digest)"
+                "+https://github.com/Meggers1982/elderly-geriatric-digest)"
             ),
             "Accept": "text/html,application/xhtml+xml",
         }
@@ -402,7 +402,7 @@ Rules for content:
 - For rheumatology: specify the condition (RA, OA, gout, etc.) — do not use "arthritis" as a catch-all
 - For palliative care: be precise about the study context (hospice, hospital, outpatient) and do not overstate generalizability
 - For rehabilitation: note whether outcomes are functional (mobility, ADLs) or surrogate markers
-- Animal and cell studies are not automatically excluded — they may be scientifically important — but must be clearly labeled and scored lower
+- Animal-only and cell-only studies should already be excluded by screening; if any slip through, clearly label and score lower
 - Never use: breakthrough, cure, reverses, eliminates, proven to prevent
 - Always use: suggests, found that, associated with, early evidence indicates
 - No causal language for observational studies
