@@ -142,7 +142,7 @@ jobs:
 
       - name: Publish results to shared dashboard
         env:
-          DASHBOARD_REPO_TOKEN: ${ secrets.DASHBOARD_REPO_TOKEN }
+          DASHBOARD_REPO_TOKEN: ${{ secrets.DASHBOARD_REPO_TOKEN }}
           DASHBOARD_REPO: Meggers1982/research-digest-dashboard
           DASHBOARD_FILE: data/elderly-geriatric.json
           SOURCE_ID: elderly-geriatric
