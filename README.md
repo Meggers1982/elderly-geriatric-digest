@@ -17,7 +17,7 @@ A GitHub Actions workflow that searches curated clinical geriatrics, dementia an
 
 Features:
 - Card view per study with headline, summary, caveats, fact-check notes
-- Expandable pitch angles section for publications such as AARP, Next Avenue, Kaiser Health News, STAT, MedPage Today, McKnight's, and general health outlets
+- Expandable pitch angles section for publications such as STAT News, The New York Times (Health), NPR Health, KFF Health News, Next Avenue, AARP The Magazine, Health.com, Women's Health Magazine, MedPage Today, Modern Healthcare, McKnight's Senior Living, The Atlantic, and general health outlets
 - Filter by category, groundbreaking type, status, date range, and score
 - Search across all study text and pitches
 - Status tracking (New / Saved / Pitched / Passed) saved to localStorage

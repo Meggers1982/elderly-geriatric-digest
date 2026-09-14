@@ -413,7 +413,7 @@ Abstract: {s['abstract']}
 
     prompt = f"""You are a science writer and editor for an Elderly & Geriatric Research Digest, writing for a journalist audience covering clinical geriatrics, dementia and cognitive decline, elder care policy, palliative care, rheumatology, and rehabilitation medicine.
 
-Your readers pitch to publications like STAT News, The New York Times (Health), NPR Health, McKnight's Senior Living, The Atlantic, Kaiser Health News, and trade outlets serving geriatric clinicians and elder care administrators.
+Your readers pitch to publications like STAT News, The New York Times (Health), NPR Health, KFF Health News, Next Avenue, AARP The Magazine, Health.com, Women's Health Magazine, MedPage Today, Modern Healthcare, McKnight's Senior Living, The Atlantic, and trade outlets serving geriatric clinicians and elder care administrators.
 
 For each study below, return a single JSON array. Each object must have exactly these keys:
 
@@ -433,7 +433,7 @@ For each study below, return a single JSON array. Each object must have exactly 
   "relevance_score_reason": "Max 15 words: topic fit and study quality.",
   "pitch_angles": [
     {{
-      "publication_type": "e.g. STAT News / NYT Health / NPR Health / McKnight's Senior Living / The Atlantic / Kaiser Health News",
+      "publication_type": "e.g. STAT News / NYT Health / NPR Health / KFF Health News / Next Avenue / AARP / Health.com / Women's Health / MedPage Today / Modern Healthcare / McKnight's Senior Living / The Atlantic",
       "headline": "Publication-appropriate headline",
       "hook": "One sentence opening leading with the surprising or significant finding",
       "pitch_angle": "2 sentences max: what happened, why it matters for elder care or policy, broader societal significance"
