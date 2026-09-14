@@ -33,13 +33,32 @@ Can also be triggered manually via **Actions -> Elderly & Geriatric Research Dig
 
 | Category | Journals | Jobs |
 |---|---:|---|
-| Geriatrics | 100 | 2 (chunks 1-2) |
+| Geriatrics | 108 | 2 (chunks 1-2) |
 | Neurology | 384 | 2 (chunks 1-2) |
-| Palliative Care | 10 | 2 (chunks 1-2) |
-| Rheumatology | 28 | 2 (chunks 1-2) |
+| Palliative Care | 11 | 2 (chunks 1-2) |
+| Rheumatology | 32 | 2 (chunks 1-2) |
 | Physical and Rehabilitation Medicine | 62 | 2 (chunks 1-2) |
 
 Large categories are split into chunks to keep run times under 20 minutes.
+
+The category CSVs in `data/` are now hand-maintained and are the source of truth. `scripts/extract_journals.py` generated them from `~/PubMed_Journals_Categorized.xlsx`, which no longer exists, and re-running it would wipe hand-added rows. Every row is searched with no topic filter, so a journal's entire weekly output enters the digest.
+
+## Journal list audit (2026-09-14)
+
+Method: OpenAlex's top sources for this digest's subject areas over the prior year were diffed against the CSVs (matched on any ISSN or title), and only titles PubMed indexes with at least 20 articles in the last 12 months were kept. The aging titles `senior-research-digest` added in its own audit the same day were checked too. The audit added 13 journals (584 → 597 rows):
+
+- **Geriatrics** (+8): *npj Parkinson's Disease* (~360 PubMed articles a year), *Dementia & Neuropsychologia*, *Journal of Geriatric Cardiology*, *Geriatric Orthopaedic Surgery & Rehabilitation*, *Immunity & Ageing*, *European Journal of Ageing*, *European Review of Aging and Physical Activity*, *Dementia and Neurocognitive Disorders*
+- **Palliative Care** (+1): *Palliative Care and Social Practice*
+- **Rheumatology** (+4): *RMD Open*, *Osteoarthritis and Cartilage*, *Rheumatology Advances in Practice*, *BMC Rheumatology*
+
+Left out on purpose:
+- **Not in PubMed, or no PubMed articles in the past year**, so they would contribute nothing: *Revue du Rhumatisme*, *Modern Rheumatology Journal*, *Egyptian Rheumatology and Rehabilitation*, *Palliative Medicine in Practice*, *Journal of Population Ageing*, *Educational Gerontology*, *Gerontechnology*, *Ageing International*, *GeroPsych*, *International Journal of Ageing and Later Life*, *Progress in Palliative Care*, and dozens of Indonesian and Ukrainian physical-education journals that OpenAlex files under rehabilitation.
+- **Under 20 PubMed articles a year**: *Alzheimer's & Dementia: Behavior & Socioeconomics of Aging* (launched 2025), *Aging Brain*, *Dementia and Geriatric Cognitive Disorders Extra*.
+- **Off-beat** titles OpenAlex lumped in: *International Urogynecology Journal*, *Toxicon*, *Mediastinum*, *Advances in Wound Care*, *Cartilage*, neurosurgery titles, and pharmacy practice and education journals (*JAPhA*, *Research in Social and Administrative Pharmacy*, *International Journal of Pharmacy Practice*, *American Journal of Pharmaceutical Education*).
+- **Case reports**: *Journal of Neurosurgery Case Lessons*, *Case Reports in Neurology*.
+- **Lower priority** rheumatology titles, kept out to hold the list modest: *Lupus Science & Medicine* (skews toward younger patients), *EULAR Rheumatology Open*, *Osteoarthritis and Cartilage Open*, *Rheumatology and Therapy*, *Therapeutic Advances in Musculoskeletal Disease*, and small regional journals.
+
+No category grew by more than a quarter, so the workflow chunking is unchanged.
 
 ## Manual Trigger
 
