@@ -41,7 +41,7 @@ Can also be triggered manually via **Actions -> Elderly & Geriatric Research Dig
 
 Large categories are split into chunks to keep run times under 20 minutes.
 
-The category CSVs in `data/` are now hand-maintained and are the source of truth. `scripts/extract_journals.py` generated them from `~/PubMed_Journals_Categorized.xlsx`, which no longer exists, and re-running it would wipe hand-added rows. Every row is searched with no topic filter, so a journal's entire weekly output enters the digest.
+The category CSVs in `data/` are now hand-maintained and are the source of truth. `scripts/extract_journals.py` generated them from `~/PubMed_Journals_Categorized.xlsx`, which no longer exists, so the script has been deleted. Every row is searched with no topic filter, so a journal's entire weekly output enters the digest.
 
 ## Journal list audit (2026-09-14)
 
@@ -95,7 +95,6 @@ Add these in **Settings -> Secrets and variables -> Actions**:
 scripts/
   elderly_geriatric_digest.py
   merge_results.py
-  extract_journals.py
 data/
   Geriatrics.csv
   Neurology.csv
