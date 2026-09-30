@@ -25,7 +25,7 @@ Features:
 
 ## Schedule
 
-Runs automatically every morning at 7:00 AM ET. All jobs run in parallel; the deploy job merges results and publishes the dashboard once complete.
+Runs automatically every morning at 6:00 AM ET. All jobs run in parallel; the deploy job merges results and publishes the dashboard once complete.
 
 Can also be triggered manually via **Actions -> Elderly & Geriatric Research Digest -> Run workflow**.
 
