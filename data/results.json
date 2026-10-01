@@ -1,39 +1,969 @@
 {
-  "last_updated": "2026-09-29T16:58:40.652515+00:00",
-  "total_studies": 941,
-  "new_this_run": 13,
+  "last_updated": "2026-10-01T17:16:30.029544+00:00",
+  "total_studies": 965,
+  "new_this_run": 24,
   "studies": [
     {
+      "pmid": "42811883",
+      "headline": "New lab test may finally decode mysterious epilepsy gene variants \u2014 and could speed precision treatments",
+      "journal": "Epilepsia",
+      "pubdate": "2026 Sep 30",
+      "doi": "10.1002/epi.70504",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Children's Hospital of Philadelphia developed a fluorescence-based assay to simultaneously measure protein stability and binding behavior of STXBP1, a gene whose mutations cause one of the most common genetic epilepsy syndromes, testing 15 genetic variants including known benign, known pathogenic, and atypically mild cases. The assay correctly distinguished benign from pathogenic variants (with one exception) using machine-learning classification, and classifier scores correlated significantly with clinical severity. Many STXBP1 variants have been unclassifiable under current genetic guidelines, leaving families without clear diagnoses or access to targeted therapies.",
+      "why_it_matters": "STXBP1-related disorders cause severe early-onset epilepsy and developmental delay in children, and a scalable tool to classify previously ambiguous gene variants could meaningfully shorten the diagnostic odyssey for affected families and accelerate access to precision therapies.",
+      "caveats": "small sample (N<100), single-center, animal or cell study",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Pediatric epilepsy genetics; limited direct geriatric relevance, strong clinical utility angle.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "A New Assay Could Finally Classify the 'Uncertain' Epilepsy Gene Variants Leaving Families in Diagnostic Limbo",
+          "hook": "Thousands of families with children who have STXBP1-related epilepsy are stuck waiting on genetic variants labeled 'uncertain significance' \u2014 a new lab test may change that.",
+          "pitch_angle": "Researchers developed and validated a dual-readout fluorometric assay that correctly sorted benign from disease-causing STXBP1 variants and correlated with clinical severity, potentially rescuing families from diagnostic limbo. If scaled, the platform could overhaul how variant classification is done for synaptic epilepsy disorders and open doors to precision therapies."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Neurology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42803096",
+      "headline": "A routine blood test marker tied to migraine severity \u2014 but it can't reliably predict who has migraines",
+      "journal": "Ideggy\u00f3gy\u00e1szati Szemle (Hungarian Journal of Neurology)",
+      "pubdate": "2026 Sep 30",
+      "doi": "10.18071/isz.79.0329",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Turkish researchers prospectively enrolled 53 episodic migraine patients and 53 age- and sex-matched healthy controls, collecting blood samples during acute attacks and attack-free intervals to measure immature granulocytes (IGs) and other inflammatory markers. IG levels did not differ between migraineurs and controls overall, but lower IG levels were associated with higher headache frequency and greater migraine-related disability (MIDAS scores). Inflammatory indices including lymphocyte-to-monocyte ratio and systemic inflammation response index were significantly different during attacks compared to controls, though platelet indices showed limited discriminative power (AUC <0.61).",
+      "why_it_matters": "The paradoxical inverse association between immature granulocyte levels and migraine severity \u2014 rather than a straightforward elevation \u2014 suggests the immune dynamics of chronic migraine are more complex than simple inflammation models imply.",
+      "caveats": "small sample (N<100), single-center, observational design, self-reported outcomes, no age breakdown reported, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Interesting biomarker signal but small N, no older adult focus, limited clinical utility shown.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com",
+          "headline": "A Blood Marker for Migraine Severity? New Research Uncovers a Surprising Immune Connection",
+          "hook": "People with more frequent, more disabling migraines actually had lower levels of a key immune cell marker \u2014 the opposite of what researchers expected.",
+          "pitch_angle": "A small Turkish study found that immature granulocyte levels were inversely linked to migraine frequency and disability, complicating the idea that migraine is simply an inflammatory condition and pointing toward more nuanced immune involvement \u2014 though the findings need larger validation before any clinical use."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Neurology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
       "pmid": "42806888",
-      "headline": "A simple yes-or-no question at hospital admission moves dying patients into palliative care almost three days sooner",
+      "headline": "A single admission question predicts whether dying patients get palliative care \u2014 and how fast",
       "journal": "Journal of Palliative Medicine",
       "pubdate": "2026 Sep 29",
       "doi": "10.1177/10966218261488922",
       "groundbreaking": "Major elder care or policy implication",
       "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a retrospective, propensity-matched cohort study of 8,970 hospital encounters at three NYU Langone Health sites between 2020 and 2025, examining whether providers' response to the 'Surprise Question' \u2014 'Would you be surprised if this patient died in the next year?' \u2014 at admission affected palliative care initiation. All patients included had been discharged as expired or to hospice; age breakdown was not reported. Patients whose providers answered 'No' (not surprised) were 28% more likely to receive advance care planning documentation or a palliative care consultation, and received it an average of 2.7 days earlier.",
-      "why_it_matters": "A single structured question at hospital admission appears associated with meaningfully earlier palliative care engagement for patients near the end of life, suggesting a low-cost, scalable intervention for hospital systems.",
-      "caveats": "observational design, single-center (multisite but single health system), retrospective, no age breakdown reported, limited to patients who died or went to hospice",
+      "summary": "Researchers conducted a retrospective, propensity-matched cohort study at three NYU Langone Health hospitals examining whether a provider's response to the 'Surprise Question' \u2014 'Would you be surprised if this patient died in the next year?' \u2014 at hospital admission influenced palliative care delivery. The study analyzed 8,970 encounters (2020\u20132025) among patients who died or were discharged to hospice; age range was not specified in the abstract. Patients flagged as high-risk (SQ response of 'No') were more likely to receive advance care planning documentation or palliative care consultation (OR 1.28) and received it an average of 2.7 days earlier.",
+      "why_it_matters": "A brief, low-cost clinical prompt at hospital admission appears associated with meaningfully earlier palliative care engagement for patients at the end of life \u2014 a finding with direct implications for how hospital systems structure admission workflows.",
+      "caveats": "observational design, single-center (multisite but single health system), retrospective, no age breakdown reported, short follow-up",
       "fact_check_note": "",
       "relevance_score": 8,
-      "relevance_score_reason": "Strong palliative care and policy hook; large N, multisite, propensity-matched; no age breakdown is a caveat.",
+      "relevance_score_reason": "Strong palliative/ACP hook, large N, clean propensity-matched design, direct care-quality implication.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News / MedPage Today",
+          "headline": "One question at hospital admission shifts the odds \u2014 and the clock \u2014 on end-of-life care",
+          "hook": "Patients flagged as likely to die within a year received palliative care consultation nearly three days sooner when providers answered a single admission question.",
+          "pitch_angle": "A propensity-matched study of nearly 9,000 hospital encounters found that the 'Surprise Question' \u2014 asked at admission \u2014 was associated with significantly earlier and more frequent palliative care engagement. For clinicians and health systems trying to close the gap between when patients need palliative support and when they get it, this suggests a low-friction lever already embedded in some EHR workflows."
+        },
+        {
+          "publication_type": "McKnight's Senior Living / Modern Healthcare",
+          "headline": "Hospitals that use the 'Surprise Question' at admission may be getting dying patients to palliative care faster",
+          "hook": "A simple yes-or-no question asked by admitting physicians was associated with a nearly three-day head start on advance care planning for patients who ultimately died or entered hospice.",
+          "pitch_angle": "The study, conducted across a large urban health system, suggests that standardizing the Surprise Question in admission protocols could improve end-of-life care quality metrics \u2014 a finding relevant to administrators evaluating palliative care program design and CMS quality benchmarks."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Palliative Care",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42810345",
+      "headline": "Standard genetic test for tau-linked dementia risk may misclassify people of African ancestry \u2014 and a newly found gene variant helps explain why",
+      "journal": "Neuron",
+      "pubdate": "2026 Sep 29",
+      "doi": "10.1016/j.neuron.2026.09.008",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research / Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used long-read sequencing, postmortem human brain tissue, and iPSC-derived neurons and astrocytes to characterize a previously unrecognized MAPT gene sub-haplotype called H1_A, enriched in individuals of African ancestry. H1_A carries a genetic variant (rs8070723) that has long been used to define a supposedly protective haplotype \u2014 meaning current standard tests likely misclassify African-ancestry individuals' dementia risk. Ancestry and haplotype were found to influence tau protein expression, isoform composition, immune signaling, and oxidative stress responses in ways that differ from European-ancestry genetic models.",
+      "why_it_matters": "The finding suggests that widely used genetic tools for assessing tau-related dementia risk may be systematically unreliable for people of African ancestry \u2014 a population already underrepresented in dementia research and at elevated risk for Alzheimer's disease.",
+      "caveats": "no age breakdown reported, partial reliance on cell and postmortem tissue models, abstract truncated (full findings not reviewable)",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Counterintuitive dementia genetics finding with major health equity implications; human tissue and iPSC models.",
       "pitch_angles": [
         {
           "publication_type": "STAT News",
-          "headline": "One Question Asked at Admission Gets Dying Patients Into Palliative Care Nearly 3 Days Sooner",
-          "hook": "Hospitals already have a tool that can accelerate end-of-life care \u2014 they just need to act on the answer.",
-          "pitch_angle": "A large propensity-matched study finds that when providers answered 'No' to the Surprise Question at admission, patients received palliative care consultations 2.7 days earlier \u2014 a gap that could mean the difference between a documented dying wish and a chaotic death."
+          "headline": "A hidden gene variant means standard dementia risk tests may be wrong for millions of Black Americans",
+          "hook": "A newly identified variant in a gene tied to tau-related dementia is common in people of African ancestry \u2014 and it's been systematically misread by the genetic tests researchers have relied on for decades.",
+          "pitch_angle": "Researchers found that a widely used marker for protective dementia genetics actually flags a distinct, previously unknown variant in African-ancestry individuals, calling into question decades of dementia risk stratification. The finding has direct implications for clinical trials and genetic counseling that disproportionately rely on European-ancestry genetic maps."
         },
         {
-          "publication_type": "McKnight's Senior Living",
-          "headline": "Hospitals That Use the 'Surprise Question' Get Advance Care Plans Documented Faster for Dying Patients",
-          "hook": "A structured prompt already embedded in some hospital workflows is associated with significantly earlier palliative care for patients who won't survive their admission.",
-          "pitch_angle": "The study's findings suggest that systematically capturing and acting on the Surprise Question response at admission \u2014 rather than leaving it informal \u2014 could improve care quality and reduce last-minute, undocumented deaths across hospital systems."
+          "publication_type": "The Atlantic",
+          "headline": "Dementia science built its genetic tools on the wrong people. A new finding shows the cost.",
+          "hook": "A study in Neuron reveals that the standard genetic marker used to assess tau-linked dementia risk doesn't mean the same thing in people of African descent \u2014 raising urgent questions about who dementia research has been designed to serve.",
+          "pitch_angle": "The discovery of a previously invisible gene sub-haplotype enriched in African-ancestry individuals exposes a structural blind spot in neurodegenerative disease genetics built largely on European cohorts. As Alzheimer's rates remain disproportionately high in Black Americans, the finding underscores the cost of decades of underrepresentation in genetic research."
         }
       ],
-      "run_date": "2026-09-29",
+      "run_date": "2026-10-01",
+      "category": "Neurology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42809676",
+      "headline": "People with aphasia rely on world knowledge during language processing \u2014 but not in the way leading theories predicted",
+      "journal": "Cognitive Neuropsychology",
+      "pubdate": "2026 Sep 29",
+      "doi": "10.1080/02643294.2026.2738945",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers tested predictions from rational adaptation theory in people with aphasia (PWA) using a visual world eye-tracking paradigm during sentence comprehension tasks; the study included both people with aphasia and neurologically healthy controls. Contrary to theory predictions, both groups showed similarly strong reliance on world knowledge and verb constraints, with only a slight processing delay in PWA. People with aphasia also showed greater interference from semantically related distractors, suggesting impaired cognitive control rather than strategic knowledge-shifting.",
+      "why_it_matters": "The findings challenge a prominent model of how aphasia affects language comprehension, which could ultimately influence how speech-language therapists frame rehabilitation strategies for stroke and brain-injury patients.",
+      "caveats": "small sample (N<100), no age breakdown reported, single cognitive domain studied",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Aphasia is geriatric-adjacent but no older adult sample data; limited elder care or policy hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Aphasia patients don't compensate for language loss the way theory said they would",
+          "hook": "A new eye-tracking study finds that people with aphasia don't strategically shift toward world knowledge when language processing is impaired \u2014 contradicting a key claim in rational adaptation theory.",
+          "pitch_angle": "The finding challenges a theoretical model that has influenced how researchers and clinicians think about language rehabilitation after stroke or brain injury, suggesting impaired cognitive control \u2014 not adaptive strategy \u2014 better explains comprehension deficits in aphasia."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Neurology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42810436",
+      "headline": "Re-clipping a brain aneurysm after prior surgery is rare but technically treacherous, review finds",
+      "journal": "World Neurosurgery",
+      "pubdate": "2026 Sep 29",
+      "doi": "10.1016/j.wneu.2026.125375",
+      "groundbreaking": "Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Neurosurgeons at D\u00fcsseldorf University Hospital conducted a structured literature review (22 relevant studies) supplemented by two illustrative surgical cases involving three previously clipped aneurysms that required microsurgical retreatment. The review identified recurring operative challenges including adhesive scarring, prior clip management, limited vascular control, and aneurysm recurrence, and synthesized strategies to address each. Findings suggest that reoperative microsurgery after clipping is technically demanding and requires highly individualized approaches, with endovascular options considered when anatomy permits.",
+      "why_it_matters": "As more aneurysm patients survive their initial treatment and live into older age, understanding the risks and strategies for retreatment is increasingly relevant for neurosurgical planning and patient counseling.",
+      "caveats": "small sample (N<100), single-center, observational design, secondary analysis, no age breakdown reported",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Specialized surgical topic, no geriatric age data, limited broad elder care relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "When Brain Aneurysm Clips Fail: A Surgical Review Maps the Treacherous Path to Retreatment",
+          "hook": "Reoperation on a previously clipped brain aneurysm is rare \u2014 but when it's needed, scar tissue, altered anatomy, and residual hardware make it one of neurosurgery's most demanding procedures.",
+          "pitch_angle": "A German review of 22 studies and two illustrative cases outlines the technical challenges and step-by-step strategies for microsurgical retreatment after aneurysm clipping \u2014 findings that matter most for neurosurgeons counseling patients whose initial treatment has failed."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Neurology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42810897",
+      "headline": "Stronger grip is linked to less hand pain \u2014 but it's unclear which comes first",
+      "journal": "Journal of Hand Therapy",
+      "pubdate": "2026 Sep 29",
+      "doi": "10.1016/j.jht.2026.08.005",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed data from 8,293 American adults in the 2011\u20132014 National Health and Nutrition Examination Survey (NHANES) to examine the relationship between handgrip strength and hand pain. After adjusting for demographic, behavioral, and socioeconomic factors, each unit increase in grip strength was associated with a 1.3\u20134.1% reduction in hand pain risk. Notably, more than 80% of hand pain cases were unrelated to arthritis or carpal tunnel syndrome, and the authors caution that reverse causality \u2014 where hand pain reduces grip strength \u2014 cannot be ruled out. No age-specific subgroup analysis for adults 65+ was reported.",
+      "why_it_matters": "The finding that most hand pain in this large US sample was not attributable to arthritis or carpal tunnel syndrome suggests that clinicians may be underestimating other contributors to hand pain, which is highly prevalent among older adults.",
+      "caveats": "observational design, cross-sectional (no causality), no age breakdown reported, self-reported outcomes (hand pain), secondary analysis, reverse causality acknowledged by authors",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Large US NHANES cohort; hand pain relevant to older adults; cross-sectional limits causal claims.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Most Hand Pain Isn't Arthritis or Carpal Tunnel. Grip Strength May Be the Clue.",
+          "hook": "A study of more than 8,000 Americans found that over 80% of hand pain cases had nothing to do with arthritis or carpal tunnel syndrome \u2014 the two conditions clinicians most often blame.",
+          "pitch_angle": "Using NHANES data, researchers found that lower handgrip strength was independently associated with higher hand pain risk, but acknowledged that the causal arrow could point either way. The findings suggest that rehabilitation targets for hand pain may need to expand well beyond the diagnoses currently dominating clinical thinking."
+        },
+        {
+          "publication_type": "Health.com",
+          "headline": "Hand Pain? Grip Strength May Be a Bigger Factor Than Arthritis",
+          "hook": "A large national survey found that stronger grip was linked to less hand pain \u2014 and most sufferers didn't have arthritis or carpal tunnel at all.",
+          "pitch_angle": "Researchers analyzing data from over 8,000 U.S. adults found that hand pain is common and largely unexplained by the diagnoses most people assume, with grip strength emerging as a significant associated factor. Experts caution it's unclear whether weak grip causes pain or pain causes weak grip \u2014 but the finding raises new questions about how hand pain should be assessed and treated."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Physical and Rehabilitation Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42803431",
+      "headline": "Palliative care clinicians who avoid thinking about death may actually cope better \u2014 but at a hidden cost",
+      "journal": "Palliative & Supportive Care",
+      "pubdate": "2026 Sep 28",
+      "doi": "10.1017/S1478951526103782",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A single-author theoretical paper extends terror management theory to explain how avoidance of death-related thoughts may paradoxically support short-term resilience in palliative care clinicians across disciplines. The paper is conceptual rather than empirical, drawing on existing psychological frameworks rather than original data. It argues that avoidance behaviors, typically seen as maladaptive, may serve a protective function in end-of-life care settings while potentially undermining long-term wellbeing.",
+      "why_it_matters": "Understanding how clinicians psychologically manage constant proximity to death could inform better support and burnout-prevention strategies in palliative care teams.",
+      "caveats": "small sample (N<100), no empirical data \u2014 theoretical/perspective piece only, single-center, single author, no age breakdown reported",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Palliative care topic fit, but no empirical data and theoretical framing limits pitchability.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "The Avoidance Paradox: Why Palliative Care Clinicians Who Don't Dwell on Death May Survive It Better",
+          "hook": "A new theoretical framework suggests that death avoidance \u2014 long viewed as a red flag in palliative care \u2014 may actually be a short-term coping scaffold for frontline clinicians.",
+          "pitch_angle": "A Bulgarian psychologist is applying terror management theory to argue that avoidance of mortality cues can be protective for multidisciplinary palliative teams \u2014 but the paper is conceptual, with no patient data, raising questions about whether the theory holds in real clinical settings."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Geriatrics",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42803424",
+      "headline": "A decade of research on palliative care in humanitarian crises reveals a massive blind spot: refugee and conflict settings",
+      "journal": "Palliative & Supportive Care",
+      "pubdate": "2026 Sep 28",
+      "doi": "10.1017/S1478951526103617",
+      "groundbreaking": "Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a systematic scoping review of 88 documents published between 2012 and 2022 examining palliative care needs in humanitarian settings in low- and middle-income countries. The review found that literature was dominated by Public Health Emergency contexts \u2014 particularly COVID (42 documents) and Ebola (30 documents) \u2014 while refugee populations (10 documents), conflict settings (1 document), and natural disasters (2 documents) were severely underrepresented. Family caregiver perspectives and children's needs were also largely absent from the evidence base.",
+      "why_it_matters": "The near-total absence of palliative care research in refugee and conflict settings \u2014 where millions of people with serious illness live \u2014 suggests a critical gap in global health evidence that shapes both humanitarian policy and clinical practice.",
+      "caveats": "observational design, secondary analysis, no age breakdown reported, heterogeneous document types included (conference abstracts, theses, case reports)",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Global palliative policy hook but limited direct geriatric relevance; no older adult subgroup data.",
+      "pitch_angles": [
+        {
+          "publication_type": "KFF Health News / The Atlantic",
+          "headline": "When bombs fall and floods rise, palliative care is the last thing researchers study \u2014 and patients pay the price",
+          "hook": "A decade of global research on palliative care in humanitarian crises turns out to be almost entirely about pandemics \u2014 leaving the suffering of refugees and conflict survivors nearly invisible in the evidence base.",
+          "pitch_angle": "A scoping review of 88 documents found that COVID and Ebola dominated the literature while conflict zones generated just one study, raising urgent questions about whose end-of-life suffering counts in global health research and policy."
+        }
+      ],
+      "run_date": "2026-10-01",
       "category": "Palliative Care",
       "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42799973",
+      "headline": "A rheumatoid arthritis drug may slash recurrence of a stubborn inflammatory breast condition",
+      "journal": "Clinical Rheumatology",
+      "pubdate": "2026 Sep 26",
+      "doi": "10.1007/s10067-026-08431-1",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a real-world retrospective study using propensity score matching to compare adalimumab as first-line therapy versus standard regimens in 28 matched patients with granulomatous lobular mastitis (GLM), a chronic inflammatory breast disease predominantly affecting women of reproductive age. The adalimumab group showed a 12-month cumulative recurrence rate of 14% compared with 48% in controls, with comparable safety profiles. This is the first report of adalimumab used as first-line therapy in treatment-na\u00efve GLM.",
+      "why_it_matters": "If validated in larger studies, adalimumab could offer women with this notoriously relapsing inflammatory breast disease a more durable first-line treatment option than current standard care.",
+      "caveats": "small sample (N<100), observational design, single-center, short follow-up, secondary analysis, no age breakdown reported",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Rheumatology angle but non-geriatric, very small sample, single-center exploratory study.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "First Real-World Data Suggest Adalimumab Could Cut Breast Disease Recurrence in Half",
+          "hook": "A TNF inhibitor already used for rheumatoid arthritis may dramatically reduce relapses in a poorly understood chronic inflammatory breast condition.",
+          "pitch_angle": "This small but novel study is the first to test adalimumab as a front-line strategy for granulomatous lobular mastitis, a disease with no approved therapy and high recurrence. Clinicians treating refractory cases may find early evidence worth watching, pending larger trials."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Rheumatology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42791519",
+      "headline": "Language training for immigrant nursing home workers is welcomed \u2014 but finding staff to lead it remains the sticking point",
+      "journal": "BMC Geriatrics",
+      "pubdate": "2026 Sep 25",
+      "doi": "10.1186/s12877-026-08354-1",
+      "groundbreaking": "Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Swedish researchers conducted a qualitative study exploring how first-line managers, language advocates, and care staff (N=28 participants) experienced a structured eight-workshop language development intervention called 'Talk about Work' in Swedish nursing homes. All groups found the intervention appropriate and well-received, and managers saw value in its materials for future staff education. Key barriers identified included the sensitivity of addressing language gaps directly and the difficulty of finding qualified staff to lead the initiative.",
+      "why_it_matters": "As nursing homes across high-income countries increasingly rely on foreign-born workers, this study suggests structured language programs are feasible and valued \u2014 but require dedicated staff capacity that many facilities may lack.",
+      "caveats": "small sample (N<100), qualitative design, single-center, self-reported outcomes, Sweden-specific context \u2014 generalizability to US nursing home workforce uncertain",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Nursing home workforce relevance, but small qualitative Swedish study limits US pitch generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "McKnight's Senior Living",
+          "headline": "Nursing Homes Want to Train Immigrant Workers in the Language of Care \u2014 But Can't Find Anyone to Run the Classes",
+          "hook": "A Swedish study found that a structured language program for foreign-born nursing home staff was embraced by workers and managers alike \u2014 but the biggest obstacle was finding qualified people inside facilities to lead it.",
+          "pitch_angle": "With foreign-born workers making up a growing share of nursing home staff in the US and abroad, this qualitative study highlights that language support programs are feasible and valued, but depend on internal capacity that many understaffed facilities simply don't have."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Geriatrics",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42785918",
+      "headline": "A new scale finally captures the racing heart and night sweats that haunt trauma survivors \u2014 not just the nightmares",
+      "journal": "Journal of Sleep Research",
+      "pubdate": "2026 Sep 24",
+      "doi": "10.1111/jsr.70439",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers developed and validated the 11-item STARSS Scale to measure trauma-related sleep disruption \u2014 including autonomic symptoms like palpitations and sweating \u2014 that existing tools largely ignore. The scale was tested in 830 healthcare workers and first responders (age range not reported) who worked during the COVID-19 pandemic. The STARSS showed strong internal consistency and correlated meaningfully with established measures of PTSD, anxiety, depression, and insomnia.",
+      "why_it_matters": "Older trauma survivors, including veterans and elder caregivers with PTSD, may be underserved by existing sleep assessments that miss autonomic symptoms \u2014 this tool could help clinicians better capture the full burden of trauma-related sleep disruption.",
+      "caveats": "no age breakdown reported, single occupational cohort (healthcare workers/first responders), self-reported outcomes, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Useful PTSD sleep tool but no older adult population or geriatric framing.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "New PTSD Sleep Scale Captures Autonomic Symptoms That Standard Tools Miss",
+          "hook": "Most trauma sleep measures focus on nightmares \u2014 but racing heart, sweating, and hyperarousal upon waking may matter just as much, and a new validated scale finally tracks them.",
+          "pitch_angle": "The STARSS Scale, validated in 830 pandemic-era healthcare workers, adds autonomic symptom tracking to trauma sleep assessment. For clinicians treating PTSD in older veterans or elder caregivers, the tool could reveal symptom burden that standard screenings routinely overlook."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Neurology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42782070",
+      "headline": "Surgeons make hand-surgery decisions without occupational therapists present \u2014 one West Bank clinic tried changing that",
+      "journal": "American Journal of Occupational Therapy",
+      "pubdate": "2026 Sep 24",
+      "doi": "10.1177/19437676261487164",
+      "groundbreaking": "Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This commentary and practice model description, drawing on one year of joint surgeon\u2013occupational therapist consultations at two West Bank clinics in Palestine, argues that occupational therapists should be present at the first surgical consultation for common hand conditions such as carpal tunnel syndrome, trigger finger, and thumb base osteoarthritis. The authors contend that patients currently encounter an occupational therapist only after a surgical decision has been made, effectively removing nonsurgical options from shared decision-making. No quantitative outcomes data are reported; the article is a case for practice redesign rather than an experimental study.",
+      "why_it_matters": "For older adults with hand conditions like thumb base osteoarthritis \u2014 where nonsurgical management is often equally effective \u2014 structural barriers to hearing about conservative options at the point of decision may lead to unnecessary procedures.",
+      "caveats": "small sample (N<100), single-center, observational design, no quantitative outcomes reported, no age breakdown reported",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Relevant care-model concept for hand OA in older adults; no outcome data limits impact.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Patients Decide on Hand Surgery Before Ever Meeting the Therapist Who Could Offer an Alternative",
+          "hook": "In most hand clinics, patients see an occupational therapist only after surgery is already scheduled \u2014 a structural flaw that one Palestinian practice model is trying to fix.",
+          "pitch_angle": "A West Bank clinic that places occupational therapists alongside surgeons at the very first consultation found the arrangement made shared decision-making concrete for conditions like carpal tunnel syndrome and thumb base arthritis, where nonsurgical and surgical outcomes are often comparable. The model raises a transferable question for U.S. hand surgery practice: who is in the room when the decision gets made?"
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Physical and Rehabilitation Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42785577",
+      "headline": "Dying patients in the ER are far less likely to get morphine for breathlessness than those admitted to the ward \u2014 even when they're the same patients",
+      "journal": "Journal of Pain and Symptom Management",
+      "pubdate": "2026 Sep 24",
+      "doi": "10.1016/j.jpainsymman.2026.09.026",
+      "groundbreaking": "Counterintuitive finding / Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a retrospective cohort analysis of 250 end-of-life patients (mean age 83.2 years) who presented to a single Israeli emergency department with dyspnea and died during the same hospitalization. Only 15.2% received morphine in the ED, while 68% of the same patients received it after inpatient admission \u2014 often within hours. Having lung cancer or DNR status, rather than symptom severity, predicted whether a dying patient got morphine in the ED, and morphine use in the ED was not associated with shorter survival.",
+      "why_it_matters": "The finding suggests that where an older dying patient happens to be in the hospital \u2014 not how much they are suffering \u2014 may determine whether they receive guideline-supported relief for one of the most distressing symptoms at end of life.",
+      "caveats": "single-center, observational design, retrospective design, short follow-up, secondary analysis, study population in Israel (single non-US center)",
+      "fact_check_note": "",
+      "relevance_score": 9,
+      "relevance_score_reason": "End-of-life pain/symptom management in elderly (mean 83), strong policy hook, counterintuitive gap finding.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "The same dying patients denied morphine in the ER got it hours later on the ward. Researchers want to know why.",
+          "hook": "Only 15% of end-of-life patients gasping for breath in the emergency department received morphine \u2014 but 68% of those same patients got it within hours of being admitted upstairs.",
+          "pitch_angle": "A retrospective study of elderly dying patients found that the care setting, not the patient's suffering or clinical profile, determined access to guideline-supported symptom relief. The finding raises urgent questions about why emergency medicine culture and structure fail dying patients at the moment they need relief most."
+        },
+        {
+          "publication_type": "KFF Health News",
+          "headline": "Dying in the ER means you're far less likely to get breathing relief \u2014 and it has nothing to do with how sick you are",
+          "hook": "A new study shows that end-of-life patients treated in the emergency department are dramatically less likely to receive morphine for severe breathlessness than the very same patients once they reach the hospital floor.",
+          "pitch_angle": "The disparity appears rooted in the structure and culture of emergency care, not patient need \u2014 spotlighting a systemic equity gap in how the U.S. and global health systems deliver palliative symptom management to older adults in their final hours."
+        },
+        {
+          "publication_type": "MedPage Today",
+          "headline": "ED Morphine Underuse at End of Life Tied to Setting, Not Patient Factors, Retrospective Study Finds",
+          "hook": "Among elderly patients dying of dyspnea, having lung cancer or DNR status \u2014 not symptom burden \u2014 predicted whether the ED administered morphine, a retrospective Israeli cohort study found.",
+          "pitch_angle": "The study found that ED morphine use was not associated with shortened survival, addressing a key clinician concern; the authors argue the gap reflects structural barriers in emergency care that palliative medicine guidelines and ED protocols have yet to overcome."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Palliative Care",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41879725",
+      "headline": "Cervical spine fusion history may not make airway management harder than assumed",
+      "journal": "Journal of Neurosurgical Anesthesiology",
+      "pubdate": "2026 Oct 1",
+      "doi": "10.1097/ANA.0000000000001109",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a retrospective study of 938 adults undergoing elective surgery requiring intubation (436 with prior cervical spine fusion, 502 without) to determine whether fusion history increased intubation difficulty. First-attempt success rates were 89.2% in fusion patients versus 92.6% in non-fusion patients \u2014 a difference that was not statistically significant after controlling for provider experience. Factors actually associated with multiple intubation attempts included short thyromental distance, trainee provider status, mouth trauma, and use of multiple laryngoscopes \u2014 not fusion history.",
+      "why_it_matters": "Because cervical spine fusion rates are rising and many older adults have undergone these procedures, clarifying the true predictors of difficult intubation may help anesthesiologists better allocate precautionary resources.",
+      "caveats": "observational design, single-center, retrospective, no age breakdown reported, short thyromental distance and trainee status may confound",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Counterintuitive, but no age breakdown; anesthesia procedural focus limits geriatric pitch.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Cervical Spine Fusion History Alone Doesn't Predict Difficult Intubation, Study Finds",
+          "hook": "Contrary to common clinical assumption, having a history of cervical spine fusion was not independently associated with failed first-attempt intubation in a study of nearly 1,000 surgical patients.",
+          "pitch_angle": "The real predictors of difficult intubation \u2014 trainee status, short thyromental distance, and mouth trauma \u2014 suggest current risk stratification frameworks may need recalibration, with implications for pre-op planning as fusion surgeries become more common among aging patients."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Neurology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42579504",
+      "headline": "Watchful waiting with MRI scans \u2014 not immediate surgery \u2014 may be safe for small, symptom-free ear tumor recurrences",
+      "journal": "Otology & Neurotology",
+      "pubdate": "2026 Oct 1",
+      "doi": "10.1097/MAO.0000000000005022",
+      "groundbreaking": "First-in-class human study / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a prospective single-arm pilot study at a secondary referral otology center in Israel, 13 patients with small (\u22645 mm), asymptomatic postsurgical cholesteatoma recurrences were managed with serial MRI surveillance every 12\u201318 months rather than immediate re-operation. Over a mean follow-up of 43 months, 77% of patients remained surgery-free, three showed spontaneous radiologic regression, and surgery-free survival was 91% at 36 months. The study suggests active MRI surveillance may safely delay or avoid re-exploration in carefully selected patients.",
+      "why_it_matters": "For older adults who face higher surgical risk, the possibility of deferring repeat ear surgery through imaging surveillance could meaningfully reduce procedural burden \u2014 though findings require replication in larger trials.",
+      "caveats": "small sample (N<100), single-center, observational design, short follow-up, single-arm (no comparator group), Israel-based cohort",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Pilot data, very small N, surgical specialty focus; limited direct geriatric policy hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Watch-and-Wait MRI Strategy May Safely Delay Repeat Ear Surgery in Cholesteatoma Patients",
+          "hook": "Three-quarters of patients with small, asymptomatic ear tumor recurrences avoided repeat surgery over three-plus years using serial MRI monitoring alone.",
+          "pitch_angle": "This pilot study introduces a 'scan before you cut' approach for postsurgical cholesteatoma recurrence that, if confirmed in larger trials, could spare patients \u2014 including older, higher-risk individuals \u2014 from unnecessary operations."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Neurology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42697258",
+      "headline": "A tiny RNA molecule may shield the brain after a hemorrhagic stroke \u2014 at least in rats",
+      "journal": "Journal of Stroke and Cerebrovascular Diseases",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.jstrokecerebrovasdis.2026.108739",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers measured miR-642b-3p and SERPINE1 in serum from 66 intracerebral hemorrhage (ICH) patients and 70 healthy controls, then tested a miR-642b-3p mimic in collagenase-induced rat ICH models and in lab cell cultures. They found that miR-642b-3p levels fell while SERPINE1 rose after ICH, and that restoring miR-642b-3p in rats reduced brain edema, improved neurological function, and dampened inflammatory cytokines. Lab experiments confirmed the miRNA directly targets SERPINE1's gene region and suppresses a key inflammatory pathway (NLRP3 inflammasome) while shifting immune cells toward an anti-inflammatory state.",
+      "why_it_matters": "Intracerebral hemorrhage carries high mortality and disability rates in older adults, and this early-stage research suggests a molecular target that could eventually inform new treatment strategies.",
+      "caveats": "small sample (N<100), animal or cell study, observational design for human component, single-center, no age breakdown reported",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Hemorrhagic stroke relevant to older adults, but primarily animal/cell study with tiny human sample.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "MicroRNA Pathway May Offer New Target After Hemorrhagic Stroke, Early Study Suggests",
+          "hook": "A small RNA molecule that drops sharply after brain bleeds could hold a key to limiting the damage \u2014 if results in rats translate to humans.",
+          "pitch_angle": "Researchers found that restoring miR-642b-3p reduced brain swelling and improved neurological scores in animal models of intracerebral hemorrhage. While the human data are preliminary (N=66), the miR-642b-3p/SERPINE1 axis may represent a novel therapeutic target in a stroke type with very few treatment options."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Neurology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42424747",
+      "headline": "Digital games may track cognitive decline as well as clinic tests \u2014 and patients actually play them",
+      "journal": "The Journal of Prevention of Alzheimer's Disease",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.tjpad.2026.100642",
+      "groundbreaking": "First-in-class human study / Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Massachusetts General Hospital tested the MIND GamePack\u00a9, a digital game platform, in 60 participants (age range not specified in abstract) split into two cohorts \u2014 one cognitively healthy, one with subjective complaints, mild cognitive impairment, or mild dementia \u2014 over 3\u20136 months. The platform showed high compliance, strong test-retest reliability (ICC 0.81\u20130.95), and game features correlated moderately to strongly with validated neuropsychological tests including the MoCA, RBANS, and Trail Making Test. Participants without cognitive impairment improved on game features over 3 months, while those with impairment did not, suggesting the tool may sensitively detect cognitive change over time.",
+      "why_it_matters": "An engaging, at-home digital game platform that tracks cognitive changes could offer a scalable, low-burden alternative to clinic-based neuropsychological testing for detecting early Alzheimer's disease.",
+      "caveats": "small sample (N<100), observational design, single-center, short follow-up, industry funding [AbbVie Inc.], no age breakdown reported",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Dementia screening tool; small N and industry funding limit confidence.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News / MedPage Today",
+          "headline": "A Digital Game Platform May Be as Good as Clinic Tests at Spotting Cognitive Decline",
+          "hook": "People with early cognitive impairment play differently than healthy peers \u2014 and a new digital game platform can tell the difference.",
+          "pitch_angle": "A small but promising study found that a suite of digital games tracked cognitive performance in ways that mirrored gold-standard neuropsychological tests, with patients staying engaged over months. If validated in larger trials, the approach could shift early dementia screening out of clinics and into everyday life \u2014 though AbbVie's involvement in funding warrants scrutiny."
+        },
+        {
+          "publication_type": "Next Avenue / AARP",
+          "headline": "Could Playing Digital Games at Home Replace Your Annual Memory Test?",
+          "hook": "A new study suggests smartphone-style games may track memory changes as reliably as tests that require a clinic visit.",
+          "pitch_angle": "Researchers found that game-based cognitive monitoring held up against standard clinical assessments over several months, and participants stuck with it \u2014 a major hurdle for any remote monitoring tool. For older adults who face barriers to clinic-based testing, at-home game platforms could make early detection of Alzheimer's more accessible."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Neurology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42392237",
+      "headline": "Bereaved parents and spouses teaching medical residents how to deliver bad news raises ethical questions programs haven't fully answered",
+      "journal": "Journal of Pain and Symptom Management",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.jpainsymman.2026.06.018",
+      "groundbreaking": "Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Authors conducted an ethical analysis of programs that use bereaved parents and family members as actor-educators in pediatric palliative care simulation training, drawing on the lived perspective of a bereaved spouse who serves in this role. Applying the four principles of biomedical ethics, the paper finds that while bereaved educators offer authenticity that improves trainee communication skills, programs must build in trauma-informed recruitment, structured debriefing, equitable compensation, and psychological support. The analysis concludes that the educational value of bereaved family members depends on ethically grounded institutional partnerships, not simply their presence.",
+      "why_it_matters": "As simulation-based communication training spreads across palliative and pediatric medicine, this analysis highlights that programs relying on bereaved families to teach clinicians lack consistent ethical safeguards to protect vulnerable participants.",
+      "caveats": "small sample (N<100), observational design, self-reported outcomes, single-center, no quantitative data \u2014 ethical analysis/opinion piece rather than empirical study",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Pediatric palliative focus, no older adult population, qualitative ethics piece with limited empirical data.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Using Bereaved Families to Train Residents in Palliative Communication Is Growing \u2014 But Ethical Guardrails Are Lagging",
+          "hook": "Hospitals are increasingly asking bereaved parents and spouses to role-play devastating conversations with medical trainees \u2014 but a new ethics analysis finds many programs lack the safeguards to protect these vulnerable educators.",
+          "pitch_angle": "The paper argues that trauma-informed consent, structured debriefing, and fair compensation are not optional add-ons but ethical requirements for programs that recruit people still grieving a child or spouse; as simulation-based palliative training expands, clinician educators and program directors need clearer institutional standards."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Palliative Care",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42782071",
+      "headline": "Alcohol's 'healthy aging' signal in organ protein clocks is likely a statistical illusion, researcher warns",
+      "journal": "Aging Cell",
+      "pubdate": "2026 Oct",
+      "doi": "10.1111/acel.70743",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A perspective paper by a Finnish molecular epidemiologist critically examines recent studies using organ-specific proteomic aging clocks that reported alcohol consumption is associated with slower biological aging in some organs, arguing these findings are likely artifacts of methodological inconsistencies and confounding. The paper reviews existing clock studies and identifies key sources of discrepancy \u2014 including differences in clock construction, alcohol phenotyping, and inadequate confounding control \u2014 rather than presenting new primary data. The author concludes that taking these findings at face value would understate the well-established harms of alcohol and calls for more rigorous epidemiological designs.",
+      "why_it_matters": "As proteomic aging clocks gain traction in longevity research, this analysis suggests that apparent 'healthy drinking' signals in organ-aging data may mislead both researchers and older adults seeking guidance on alcohol use.",
+      "caveats": "no empirical data \u2014 perspective/review piece only, no age breakdown reported, no original cohort analyzed",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive framing on aging and alcohol, but perspective piece with no new primary data.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "The Science Suggesting Alcohol Slows Aging Is Probably Wrong",
+          "hook": "A new analysis argues that proteomic 'organ clocks' showing alcohol linked to slower aging in some tissues are almost certainly a methodological mirage \u2014 and that believing them would obscure alcohol's real damage.",
+          "pitch_angle": "As biological aging clocks become a hot research tool, a Finnish epidemiologist dissects why the 'healthy drinking' signal they keep producing is likely an artifact of how the clocks are built and studied, not a green light for older adults to pour another glass."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Geriatrics",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42570705",
+      "headline": "A new framework tries to untangle which brain-metabolism findings in Alzheimer's and Parkinson's are real \u2014 and which are just correlation",
+      "journal": "Ageing Research Reviews",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.arr.2026.103291",
+      "groundbreaking": "Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This is a systematic narrative review synthesizing evidence on how metabolic changes in immune and glial cells \u2014 across glucose, lipid, and amino acid pathways \u2014 contribute to Alzheimer's disease, Parkinson's disease, multiple sclerosis, and ischemic stroke. Authors introduce an \"evidence-transparency framework\" designed to help readers distinguish between strong mechanistic findings and weaker correlative observations. The review also positions aging itself as a biological modifier that amplifies disease-specific metabolic dysfunction, and critically assesses therapeutic strategies targeting these pathways.",
+      "why_it_matters": "By clarifying which immunometabolic findings are causally grounded versus merely correlative, this framework could help researchers and clinicians avoid investing in therapeutic targets unlikely to translate from lab to bedside in older adults.",
+      "caveats": "observational design, secondary analysis, no age breakdown reported",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Review with aging focus; no new human data; limited direct clinical or policy hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Alzheimer's researchers keep chasing metabolism targets that may not pan out \u2014 a new review explains why",
+          "hook": "A systematic review argues that much of the evidence linking metabolic changes in brain immune cells to Alzheimer's and Parkinson's is correlative at best \u2014 and a new framework aims to stop researchers from treating association as mechanism.",
+          "pitch_angle": "The authors synthesize decades of immunometabolic research across four major neurological diseases and introduce a transparency tool to grade how strong each finding really is, with aging flagged as a complicating variable that most studies ignore. For a field that has watched drug after drug fail in late-stage trials, a clearer map of which targets have genuine causal evidence could be a valuable redirect."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Geriatrics",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42202540",
+      "headline": "Culturally diverse nursing home workers in Australia say language barriers and thin staffing are quietly eroding care quality",
+      "journal": "Archives of Gerontology and Geriatrics",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.archger.2026.106307",
+      "groundbreaking": "Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted semi-structured interviews with 38 culturally and linguistically diverse (CALD) aged care workers across four Australian states to examine workforce challenges in residential aged care. Participants reported that language barriers, cultural misunderstandings, heavy workloads, and limited culturally relevant training undermined their ability to deliver quality care and led to burnout. Workers called for enhanced cultural competence training, better organizational support, flexible care models, and increased government funding for culturally inclusive services.",
+      "why_it_matters": "As the U.S. and other Western nations increasingly rely on immigrant and culturally diverse workers to staff nursing homes, this study's findings about systemic gaps in training, support, and policy offer a cautionary parallel for elder care workforce planning.",
+      "caveats": "small sample (N<100), observational design, single-center, self-reported outcomes, qualitative only \u2014 Australia-specific context",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Nursing home care quality hook; qualitative design limits generalizability; Australia-specific but transferable.",
+      "pitch_angles": [
+        {
+          "publication_type": "McKnight's Senior Living",
+          "headline": "Immigrant nursing home workers say language gaps and understaffing are making it harder to care for residents like them",
+          "hook": "Culturally diverse aged care workers in Australia describe a system where language barriers, burnout, and lack of culturally tailored training quietly compromise the care of residents who share their backgrounds.",
+          "pitch_angle": "Interviews with 38 CALD workers across four Australian states reveal that staffing shortages and rigid organizational policies leave little room for the cultural responsiveness that immigrant and minority elders need. As U.S. nursing homes face similar workforce pressures and demographic shifts, the structural gaps identified here offer a preview of challenges that administrators and policymakers are only beginning to confront."
+        },
+        {
+          "publication_type": "KFF Health News",
+          "headline": "Nursing homes lean on immigrant workers \u2014 but give them little support to serve residents across cultural lines",
+          "hook": "A qualitative study finds that culturally diverse care workers feel structurally unsupported in delivering responsive care to residents from their own communities \u2014 pointing to a policy gap with direct parallels in the U.S.",
+          "pitch_angle": "Australian researchers found that CALD workers face compounding barriers \u2014 from communication difficulties to discriminatory workplaces \u2014 that government funding and policy have failed to address. With the U.S. long-term care workforce similarly dependent on immigrant labor and facing scrutiny over care quality disparities, the study suggests that cultural competence cannot be treated as optional in workforce policy."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Geriatrics",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41983343",
+      "headline": "Brain-decoding AI could give voice to patients trapped in vegetative states \u2014 but scientists warn it could also get their inner lives dangerously wrong",
+      "journal": "The Neuroscientist",
+      "pubdate": "2026 Oct",
+      "doi": "10.1177/10738584261434939",
+      "groundbreaking": "Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers reviewed the current state of neural reconstruction technology \u2014 which translates brain activity into images, text, or speech using neuroimaging and deep learning \u2014 and assessed its potential application to patients with disorders of consciousness (DoCs) such as vegetative and minimally conscious states. The review examined both the promise of restoring communication to patients who show no behavioral signs of awareness and the ethical risks of misrepresenting their inner experiences. The authors propose a framework for responsible use, centered on validating models and protecting patient autonomy.",
+      "why_it_matters": "Disorders of consciousness disproportionately affect older adults following stroke or brain injury, and this emerging technology could reshape how clinicians, families, and courts interpret awareness in patients currently assumed to have none \u2014 with significant implications for end-of-life decision-making.",
+      "caveats": "observational design, secondary analysis, no age breakdown reported",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Strong policy and end-of-life hook; review design limits scoring.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "What If the Patient No One Thinks Is Home Is Actually There \u2014 and We Can Finally Hear Them?",
+          "hook": "AI tools that reconstruct thought from brain scans may soon reveal whether patients in vegetative states are conscious \u2014 but scientists warn the technology could just as easily fabricate an inner life that isn't there.",
+          "pitch_angle": "Neural reconstruction promises to restore a voice to patients with disorders of consciousness, but a new review argues the technology could also catastrophically misrepresent their experiences if misapplied. The stakes are highest for older adults after stroke or brain injury, where these diagnoses shape critical end-of-life decisions."
+        },
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Neural Decoding Tech for Vegetative Patients: Promise and Peril, Researchers Warn",
+          "hook": "Brain-reading AI can already translate neural signals into text and images \u2014 but extending that to patients with disorders of consciousness introduces interpretive risks that current clinical frameworks aren't prepared to handle.",
+          "pitch_angle": "A new review maps the technology's rapid development and outlines a validation framework clinicians would need before neural reconstruction could responsibly inform care decisions in minimally conscious or vegetative patients. Misapplication, the authors warn, could compromise patient autonomy at its most vulnerable moment."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Neurology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "40808493",
+      "headline": "Three major trials failed \u2014 and now experts say routine thrombectomy for small-vessel strokes should stop",
+      "journal": "Interventional Neuroradiology",
+      "pubdate": "2026 Oct",
+      "doi": "10.1177/15910199251365526",
+      "groundbreaking": "Overturns prior research / Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers reviewed three major randomized controlled trials (DISTAL, ESCAPE-MeVO, DISCOUNT) examining endovascular thrombectomy (EVT) for distal medium vessel occlusion (DMVO) strokes, a procedure previously seen as a promising extension of large-vessel stroke treatment. The review synthesized findings on procedural safety and functional outcomes across unselected DMVO patients; age ranges were not specified in the abstract. All three trials found no functional benefit of EVT over best medical therapy, and some showed increased rates of symptomatic intracranial hemorrhage and mortality in EVT arms.",
+      "why_it_matters": "Older adults, who are disproportionately affected by small-vessel stroke, may face unnecessary procedural risk if thrombectomy continues to be used for distal vessel occlusions outside of clinical trials.",
+      "caveats": "secondary analysis, no age breakdown reported, narrative review not systematic meta-analysis",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Overturns prior enthusiasm; major stroke treatment policy implication; no age data.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Three randomized trials just shut the door on a hot stroke intervention \u2014 at least for now",
+          "hook": "A procedure that doctors hoped would extend the benefits of thrombectomy to smaller, harder-to-reach vessels has now failed three consecutive randomized trials \u2014 and may be causing harm.",
+          "pitch_angle": "Endovascular thrombectomy for distal medium vessel occlusion strokes showed no functional benefit over standard medical care and raised safety red flags including higher rates of brain bleeding and death in treated patients. With older adults bearing the greatest stroke burden, the finding has immediate implications for which patients are wheeled into the intervention suite."
+        },
+        {
+          "publication_type": "MedPage Today",
+          "headline": "DISTAL, ESCAPE-MeVO, DISCOUNT: Why three thrombectomy trials all came up empty",
+          "hook": "Three consecutive randomized trials found that extending mechanical thrombectomy to distal vessel strokes not only failed to help \u2014 it may have hurt patients.",
+          "pitch_angle": "A new review dissects why EVT underperformed for distal medium vessel occlusions, pointing to vessel fragility, device mismatch, and poor patient selection as culprits. Clinicians are urged to hold routine DMVO thrombectomy until better devices and patient-stratification tools are developed."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Neurology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "40746112",
+      "headline": "New stroke catheter achieves successful clot removal in 88% of cases in early real-world use",
+      "journal": "Interventional Neuroradiology",
+      "pubdate": "2026 Oct",
+      "doi": "10.1177/15910199251350216",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a retrospective single-center study, 25 consecutive patients (mean age 72.3 years, 52% female) with large vessel occlusion acute ischemic stroke were treated with the CEREGLIDE\u2122 71 Intermediate Catheter using direct aspiration technique; successful reperfusion was achieved in 88% of cases. The study represents the first reported global use of this catheter at a US institution (Westchester Medical Center, New York). Notably, an expression of concern has been published for this article.",
+      "why_it_matters": "Endovascular stroke treatment outcomes directly affect functional recovery in older adults, who represent the majority of large vessel occlusion stroke patients, making real-world catheter performance data relevant to clinicians and hospital systems.",
+      "caveats": "small sample (N<100), observational design, single-center, short follow-up, expression of concern issued for this article",
+      "fact_check_note": "An expression of concern was published for this article (Interv Neuroradiol. 2026 Apr 25; doi: 10.1177/15910199261444853) \u2014 journalists should be aware this study's findings are under editorial scrutiny.",
+      "relevance_score": 4,
+      "relevance_score_reason": "Older adult population; very small N, single-center, expression of concern issued.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "First Use of New Stroke Catheter Shows Promise \u2014 But an Expression of Concern Clouds the Data",
+          "hook": "An 88% reperfusion rate in early real-world use of a new aspiration catheter sounds encouraging \u2014 until you notice the journal has since issued an expression of concern about the study.",
+          "pitch_angle": "The CEREGLIDE\u2122 71 catheter's debut in acute ischemic stroke treatment showed technically successful clot removal in the large majority of 25 patients, mostly older adults, but the editorial flag raises questions about data integrity that clinicians and device evaluators will need to weigh carefully."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Neurology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42456341",
+      "headline": "Brain imaging's go-to tool may be fundamentally ill-suited for studying how humans stop themselves mid-action",
+      "journal": "Cortex",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.cortex.2026.06.023",
+      "groundbreaking": "Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A theoretical review by a cognitive neuroscientist at the University of Iowa argues that BOLD-fMRI \u2014 the dominant brain imaging method used in response inhibition research for over 25 years \u2014 is poorly matched to the millisecond-scale neural dynamics underlying the ability to stop an action, due to the technique's slow temporal resolution. The author contends this mismatch explains decades of contradictory and unresolved findings in the field. No new participant data were collected; this is a methodological critique.",
+      "why_it_matters": "If the field's foundational imaging tool is poorly suited to studying impulse control, conclusions drawn from hundreds of fMRI studies about self-control deficits \u2014 relevant to aging, dementia, Parkinson's disease, and ADHD \u2014 may need to be revisited.",
+      "caveats": "observational design, no age breakdown reported",
+      "fact_check_note": "This is a review/opinion article, not an empirical study \u2014 no participant data were collected. The caveat flags have been applied accordingly.",
+      "relevance_score": 4,
+      "relevance_score_reason": "Methodological critique with indirect dementia relevance; no human participant data.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / STAT News",
+          "headline": "Decades of Brain Scan Research on Self-Control May Rest on the Wrong Tool",
+          "hook": "A leading cognitive neuroscientist argues that fMRI \u2014 the field's workhorse for studying how humans stop themselves \u2014 moves too slowly to capture the very brain events it's supposed to measure.",
+          "pitch_angle": "The critique suggests that hundreds of influential studies on impulse control, which underpin our understanding of conditions from ADHD to dementia-related behavioral changes, may have been systematically limited by a mismatch between the tool and the biology \u2014 a finding that calls for methodological reform across the field."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Neurology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41863128",
+      "headline": "Patients with spinal cord injuries say hospital rules \u2014 not injury \u2014 made them feel most disabled",
+      "journal": "Physiotherapy Theory and Practice",
+      "pubdate": "2026 Oct",
+      "doi": "10.1080/09593985.2026.2647781",
+      "groundbreaking": "Counterintuitive finding / Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at the University of Southern Queensland conducted in-depth qualitative interviews with 18 inpatients undergoing rehabilitation after spinal cord injury (SCI). Thematic analysis revealed that institutional procedures and control-oriented clinician behaviors frequently ruptured or prevented the formation of therapeutic alliances, intensifying patients' experience of disability. Patients described feeling surveilled and stripped of autonomy in ways that mirrored institutionalization \u2014 independent of their physical injury \u2014 and no age range for participants was reported.",
+      "why_it_matters": "The finding that institutional control practices \u2014 not just physical impairment \u2014 compound the experience of disability during inpatient rehabilitation has direct implications for how rehabilitation units serving older adults after catastrophic injury are structured and staffed.",
+      "caveats": "small sample (N<100), single-center, qualitative design only, no age breakdown reported, observational design, Australian setting may limit generalizability",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Qualitative, small N; rehabilitation relevance; no age data; policy hook moderate.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic",
+          "headline": "Rehabilitation Was Supposed to Help Them. The Hospital Made Them Feel More Disabled.",
+          "hook": "Patients recovering from spinal cord injuries say the rules and routines of inpatient rehab \u2014 not the injury itself \u2014 often felt most dehumanizing.",
+          "pitch_angle": "A qualitative study found that institutional control in rehab settings \u2014 surveillance, curtailed autonomy, procedural rigidity \u2014 could shatter the patient-clinician trust that drives recovery. The findings raise uncomfortable questions about whether the design of rehabilitation hospitals inadvertently deepens disability rather than alleviating it."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Physical and Rehabilitation Medicine",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42086434",
+      "headline": "Adults with cerebral palsy have no standard pain assessment \u2014 experts just agreed on one",
+      "journal": "Disability and Health Journal",
+      "pubdate": "2026 Oct",
+      "doi": "10.1016/j.dhjo.2026.102080",
+      "groundbreaking": "First-in-class human study / Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A nine-month modified Delphi study involving 21 stakeholders \u2014 clinicians, pain experts, and people with lived experience of cerebral palsy \u2014 used iterative surveys and meetings to build consensus on a pain assessment framework. The panel reached 90\u2013100% agreement on four domains (pain location, onset, quality, and intensity) and four corresponding standardized items suitable for routine outpatient use. The study establishes the first stakeholder-informed, pragmatic pain classification framework for adults with CP, addressing a long-standing gap that has contributed to misclassification and suboptimal treatment.",
+      "why_it_matters": "As the first generation of people with cerebral palsy to reach older adulthood in large numbers continues to age, a standardized pain assessment tool could meaningfully reduce the chronic undertreatment of pain in this population.",
+      "caveats": "small sample (N<100), observational design, no age breakdown reported",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Pain management hook; aging CP population; consensus only, no clinical outcomes yet.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "No Standard Way to Assess Pain in Adults With CP \u2014 Until Now",
+          "hook": "Clinicians have long misclassified pain in adults with cerebral palsy partly because there was no agreed-upon framework to assess it \u2014 a gap a new Delphi consensus study begins to close.",
+          "pitch_angle": "A 21-member expert panel reached near-unanimous agreement on a four-domain pain assessment tool designed for routine outpatient visits, offering clinicians their first standardized approach. With the first large cohort of adults with CP now aging into their 40s, 50s, and beyond, the clinical stakes of getting pain management right are rising fast."
+        },
+        {
+          "publication_type": "Next Avenue",
+          "headline": "People With Cerebral Palsy Are Living Longer \u2014 and Their Pain Is Still Being Misread",
+          "hook": "Adults with cerebral palsy routinely have their chronic pain misclassified, leading to treatments that don't work \u2014 and until now, medicine had no consensus on even how to measure it.",
+          "pitch_angle": "A new expert consensus framework identifies four key pain domains and standardized assessment items that could be used in any outpatient clinic, potentially transforming routine care for a growing population of older adults with CP. The effort was led in part by people with lived experience of the condition, a model that could apply to other underserved disability communities."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Physical and Rehabilitation Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "40534536",
+      "headline": "New occupational therapists struggle to plan cognitive rehab for brain-injured patients \u2014 experts just mapped what a training fix should look like",
+      "journal": "OTJR: Occupation, Participation and Health",
+      "pubdate": "2026 Oct",
+      "doi": "10.1177/15394492251345815",
+      "groundbreaking": "None identified",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "A mixed-methods Australian study used an initial survey and three virtual Nominal Group Technique focus groups with 21 expert occupational therapists to identify content and teaching methods for a self-directed learning package aimed at novice OTs working with acquired brain injury patients. Experts prioritized neuroanatomy, evidence-based guidelines, interpretation of functional errors, and goal-setting as essential content, and favored video demonstrations, case studies, and online modules as delivery methods. No age range of clinicians or patients is reported; the study establishes a content blueprint but the learning package itself has not yet been built or tested.",
+      "why_it_matters": "Gaps in novice OTs' clinical reasoning for cognitive rehabilitation may translate directly into poorer recovery outcomes for stroke and brain injury survivors, many of whom are older adults.",
+      "caveats": "small sample (N<100), observational design, single-center, no age breakdown reported, no patient outcomes measured",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Workforce training angle relevant to ABI rehab; no patient outcomes; limited geriatric specificity.",
+      "pitch_angles": [
+        {
+          "publication_type": "McKnight's Senior Living",
+          "headline": "New OTs Often Aren't Ready to Plan Cognitive Rehab \u2014 Experts Sketch a Fix",
+          "hook": "Novice occupational therapists frequently struggle to interpret cognitive assessments and design rehabilitation plans for brain-injured patients \u2014 a skills gap that a new Australian expert consensus study is working to address.",
+          "pitch_angle": "Twenty-one expert OTs agreed on the core content and teaching methods for a self-directed learning package that could be deployed at scale to upskill new practitioners working with stroke and acquired brain injury patients. For senior care and rehabilitation settings that rely heavily on early-career therapists, a validated training tool could have direct implications for care quality."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Physical and Rehabilitation Medicine",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42627612",
+      "headline": "Patients with psoriatic arthritis get far more aggressive treatment than those with similar joint disease \u2014 yet outcomes look the same",
+      "journal": "Clinical Rheumatology",
+      "pubdate": "2026 Oct",
+      "doi": "10.1007/s10067-026-08366-7",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed a single-center cohort of 204 patients with peripheral spondyloarthritis (SpA) in Turkey, using propensity score matching and novel quantitative treatment-intensity metrics to compare psoriatic arthritis (PsA) and nonpsoriatic peripheral SpA (pSpA). After matching, PsA patients received significantly more intensive treatment and earlier biologic initiation, yet DAS28-CRP-defined peripheral inflammatory outcomes \u2014 including remission rates of 79% vs. 84% \u2014 were statistically similar between groups. The findings suggest that patients without psoriasis may be undertreated relative to their disease burden.",
+      "why_it_matters": "The finding that patients with nonpsoriatic peripheral spondyloarthritis achieve similar joint-disease control with less intensive therapy \u2014 or are potentially undertreated \u2014 raises important questions about whether treatment decisions are being driven by skin findings rather than underlying joint disease severity.",
+      "caveats": "observational design, single-center, no age breakdown reported",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive rheumatology finding; single-center observational limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Psoriatic Arthritis Patients Get More Aggressive Treatment \u2014 But Their Joint Outcomes Are No Better",
+          "hook": "A propensity-matched analysis finds that the presence of psoriasis, not joint disease severity, appears to be driving treatment escalation decisions in peripheral spondyloarthritis.",
+          "pitch_angle": "Rheumatologists may be reflexively escalating therapy in patients with visible psoriasis while undertreating those with similar joint disease but no skin involvement, according to this real-world cohort study. The authors call for evidence-based pathways tailored specifically to nonpsoriatic peripheral SpA."
+        },
+        {
+          "publication_type": "STAT News",
+          "headline": "Is a Skin Rash Driving Arthritis Treatment Decisions \u2014 At the Expense of Patients Without One?",
+          "hook": "Patients with psoriatic arthritis received biologics earlier and more often than matched patients with similar joint disease but no psoriasis \u2014 yet their joint outcomes were statistically identical.",
+          "pitch_angle": "This analysis raises the possibility that treatment bias tied to psoriasis visibility may mean nonpsoriatic spondyloarthritis patients are systematically undertreated, a gap with significant implications for the estimated millions of people with arthritis who lack the skin diagnosis."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Rheumatology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42099019",
+      "headline": "Fake studies and data manipulation are corrupting rheumatology research \u2014 and clinicians may not know it",
+      "journal": "Arthritis & Rheumatology",
+      "pubdate": "2026 Oct",
+      "doi": "10.1002/art.70190",
+      "groundbreaking": "Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Rheumatology researchers from the University of Alabama at Birmingham and international institutions published a commentary warning that paper mills, research fraud, and superficial 'click data science' pose a serious and growing threat to evidence quality in the field. The piece does not present original study data but synthesizes the landscape of research integrity threats. The authors argue that clinicians and policymakers relying on published rheumatology literature may be making decisions based on fabricated or methodologically hollow evidence.",
+      "why_it_matters": "If fraudulent or low-quality studies shape treatment guidelines for conditions like rheumatoid arthritis or gout \u2014 diseases that disproportionately affect older adults \u2014 the clinical consequences for patients and elder care systems could be significant.",
+      "caveats": "commentary/opinion, no original data, no study population, no age breakdown reported",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Policy-relevant topic but commentary only; no original data or older adult population.",
+      "pitch_angles": [
+        {
+          "publication_type": "STAT News",
+          "headline": "Rheumatology has a fake science problem \u2014 and it's affecting what doctors prescribe",
+          "hook": "Researchers are sounding the alarm that paper mills and data fraud have infiltrated rheumatology's published literature.",
+          "pitch_angle": "A commentary in Arthritis & Rheumatology argues that fabricated studies and methodologically hollow analyses are distorting the evidence base used to treat conditions like rheumatoid arthritis and gout. For older patients whose treatment options are already shaped by contested guidelines, the stakes of corrupted evidence are unusually high."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Rheumatology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41841636",
+      "headline": "Most Medicare drug plans don't cover the full range of rheumatoid arthritis treatments \u2014 leaving older patients with fewer options",
+      "journal": "Arthritis & Rheumatology",
+      "pubdate": "2026 Oct",
+      "doi": "10.1002/art.70132",
+      "groundbreaking": "Major elder care or policy implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at Vanderbilt University analyzed 2022\u20132026 Medicare Part D formulary data across 26,915 plan-year observations representing 217.6 million enrolled beneficiaries to assess coverage of self-administered disease-modifying antirheumatic drugs (DMARDs) for rheumatoid arthritis. Coverage was strong for some TNF inhibitors and one JAK inhibitor, but significantly lower for other drugs including abatacept, which by 2026 was covered by only 0.3% of stand-alone Part D plans and 21.2% of Medicare Advantage Part D plans. The study found that only a small fraction of plans covered all available mechanisms of action, suggesting that Medicare beneficiaries with RA may face growing formulary barriers to optimal treatment.",
+      "why_it_matters": "For older adults with rheumatoid arthritis \u2014 a condition that worsens with age and reduces functional independence \u2014 gaps in Medicare drug coverage may force patients and physicians toward less suitable treatments determined by plan formularies rather than clinical need.",
+      "caveats": "observational design, formulary data only (no clinical outcomes measured), no age breakdown reported",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Strong Medicare/elder care policy hook; large dataset; direct RA treatment access implication.",
+      "pitch_angles": [
+        {
+          "publication_type": "KFF Health News",
+          "headline": "Medicare plans are quietly dropping key rheumatoid arthritis drugs \u2014 and older patients are running out of covered options",
+          "hook": "By 2026, fewer than 1% of stand-alone Medicare drug plans covered abatacept, a cornerstone rheumatoid arthritis therapy with a distinct mechanism of action.",
+          "pitch_angle": "A five-year analysis of Medicare Part D formularies found growing exclusions of self-administered RA drugs, with wide variation between stand-alone and Medicare Advantage plans. The findings raise questions about whether Medicare formulary design is prioritizing cost over clinical flexibility for older adults with complex, treatment-resistant disease."
+        },
+        {
+          "publication_type": "MedPage Today",
+          "headline": "Medicare Part D formularies leave many RA patients without coverage for key drug classes, study finds",
+          "hook": "Only a tiny fraction of Medicare drug plans cover all approved mechanisms of action for rheumatoid arthritis, a new five-year formulary analysis finds.",
+          "pitch_angle": "The study, covering 217.6 million Medicare beneficiary enrollment-years, found especially steep gaps for abatacept and certain JAK inhibitors, with significant differences between stand-alone and Medicare Advantage plans. Rheumatologists may increasingly find that clinical decision-making is constrained by plan formularies rather than patient need."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Rheumatology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42595806",
+      "headline": "Letting gout patients monitor their own uric acid at home \u2014 with nurse backup \u2014 may close a long-standing treatment gap",
+      "journal": "Nature Reviews Rheumatology",
+      "pubdate": "2026 Oct",
+      "doi": "10.1038/s41584-026-01419-w",
+      "groundbreaking": "None identified",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This short commentary in Nature Reviews Rheumatology, authored by Brazilian rheumatologists, discusses a nurse-supported urate self-monitoring model as a strategy for helping gout patients maintain target serum urate levels between clinic visits. The piece does not report original study data but responds to emerging evidence on remote monitoring approaches in gout management. It highlights the potential for nurse-led support to improve adherence to urate-lowering therapy, which remains poor in clinical practice.",
+      "why_it_matters": "Gout is one of the most common inflammatory arthritides in older adults, and poor adherence to urate-lowering therapy leads to recurrent flares, joint damage, and hospitalizations \u2014 outcomes that a nurse-supported self-monitoring model might help reduce.",
+      "caveats": "commentary/opinion, no original data, no study population, no age breakdown reported, single-region authors (Brazil) though topic is globally relevant",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Gout is highly relevant to older adults but commentary only; no original data.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP",
+          "headline": "Gout patients who check their own uric acid at home \u2014 with a nurse's help \u2014 may finally get the disease under control",
+          "hook": "Most gout patients never reach the uric acid targets their doctors recommend \u2014 a nurse-supported home monitoring approach could change that.",
+          "pitch_angle": "A commentary in Nature Reviews Rheumatology highlights early evidence that letting gout patients self-monitor urate levels between clinic visits, backed by nurse guidance, may improve adherence to medications that prevent painful flares. Since gout disproportionately affects older men and women, this approach could reduce emergency visits and joint damage in a population that often struggles with complex medication regimens."
+        }
+      ],
+      "run_date": "2026-10-01",
+      "category": "Rheumatology",
+      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -67,33 +997,6 @@
       "run_date": "2026-09-29",
       "category": "Rheumatology",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42803431",
-      "headline": "Palliative care clinicians may cope with death by avoiding it \u2014 and that avoidance could be harming patients",
-      "journal": "Palliative & Supportive Care",
-      "pubdate": "2026 Sep 28",
-      "doi": "10.1017/S1478951526103782",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "A theoretical paper from a Bulgarian university extends terror management theory to palliative care, arguing that clinicians across disciplines may unconsciously avoid death-related conversations as a psychological self-protection mechanism. The paper does not report empirical data or a study sample. It proposes that this 'avoidance paradox' \u2014 where those trained to support dying patients psychologically distance themselves from mortality \u2014 may undermine resilience and patient care quality.",
-      "why_it_matters": "If clinician death-avoidance is structurally embedded in palliative care teams, it may help explain persistent gaps in end-of-life communication and staff burnout.",
-      "caveats": "small sample (N<100), no empirical data \u2014 theoretical/conceptual paper only, single-author, single-center affiliation",
-      "fact_check_note": "This is a theoretical extension piece, not an empirical study. No sample size, no participants, no primary data are reported. Summary reflects that accurately.",
-      "relevance_score": 5,
-      "relevance_score_reason": "Palliative care topic fit; purely theoretical, no empirical data, limited generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "MedPage Today",
-          "headline": "The Clinicians Who Help People Die May Be Unconsciously Avoiding Death Themselves",
-          "hook": "A new theoretical framework suggests palliative care providers' psychological self-protection against mortality may be quietly eroding the care they give.",
-          "pitch_angle": "Drawing on terror management theory, the paper argues that death avoidance is a paradox baked into palliative care teams \u2014 and understanding it could reshape clinician training and resilience programs."
-        }
-      ],
-      "run_date": "2026-09-29",
-      "category": "Palliative Care",
-      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -178,33 +1081,6 @@
       "status": "new"
     },
     {
-      "pmid": "42791519",
-      "headline": "Nursing homes struggle to support foreign-born staff language skills \u2014 a Swedish pilot shows what helps",
-      "journal": "BMC Geriatrics",
-      "pubdate": "2026 Sep 25",
-      "doi": "10.1186/s12877-026-08354-1",
-      "groundbreaking": "Major elder care or policy implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers in Sweden conducted a qualitative study following a structured language development intervention called 'Talk about Work' across nursing homes, interviewing 28 participants including first-line managers, language advocates, and care staff. The intervention consisted of eight workshops designed to strengthen Swedish language and professional competence among foreign-born care workers. Staff and managers found the program appropriate and beneficial, though key challenges included finding qualified staff to lead sessions and the sensitivity of addressing language gaps directly.",
-      "why_it_matters": "As nursing homes across many countries increasingly rely on foreign-born workers, this study suggests structured workplace language programs may be feasible and acceptable \u2014 a finding relevant to workforce policy and care quality for residents.",
-      "caveats": "small sample (N<100), qualitative design, single-country (Sweden), no resident outcomes measured, no age breakdown reported",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Nursing home workforce policy fit; qualitative, small Swedish sample limits generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "McKnight's Senior Living",
-          "headline": "Foreign-Born Nursing Home Staff Need Language Support \u2014 Here's What a Swedish Program Found",
-          "hook": "As nursing homes increasingly depend on immigrant workers, a Swedish pilot suggests structured language workshops are feasible \u2014 but only if the right staff are in place to lead them.",
-          "pitch_angle": "A new qualitative study from Sweden tested an eight-session workplace language program in nursing homes and found it was well received by managers and staff alike, though staffing and sensitivity challenges remain real barriers. For U.S. long-term care administrators grappling with a multilingual workforce, the findings offer a practical model worth examining."
-        }
-      ],
-      "run_date": "2026-09-29",
-      "category": "Geriatrics",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
       "pmid": "42798223",
       "headline": "Clinicians working with brain injury patients often miss how injury\u2014not personality\u2014drives violent behavior",
       "journal": "Disability and Rehabilitation",
@@ -282,99 +1158,6 @@
       ],
       "run_date": "2026-09-29",
       "category": "Rheumatology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42785918",
-      "headline": "New scale captures the sweating and racing heart that haunt trauma survivors at night \u2014 features current sleep tools miss",
-      "journal": "Journal of Sleep Research",
-      "pubdate": "2026 Sep 24",
-      "doi": "10.1111/jsr.70439",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers developed and validated an 11-item self-report scale (STARSS) designed to capture trauma-related sleep disruption, including nightmares and autonomic symptoms such as palpitations and sweating \u2014 features largely absent from existing tools. The scale was validated in 830 healthcare workers and first responders active during the COVID-19 pandemic (age range not reported). The STARSS-11 showed strong correlation with established measures of PTSD, anxiety, depression, and insomnia, and fit a 4-factor model capturing hyperarousal upon waking, trauma dream intensity, and physical activity during sleep.",
-      "why_it_matters": "A validated tool that captures autonomic symptoms alongside nightmares could improve how clinicians track treatment response in trauma survivors, including older veterans and first responders.",
-      "caveats": "no age breakdown reported, single occupational cohort (healthcare workers/first responders), self-reported outcomes, short follow-up, research-setting validation only",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Validation study; no older adult subgroup; limited geriatric or elder care hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "MedPage Today",
-          "headline": "New PTSD Sleep Scale Captures What Others Miss: The Racing Heart, the Sweats, the Body in Fight Mode",
-          "hook": "Standard nightmare scales don't measure the palpitations and sweating that jolt trauma survivors awake \u2014 a new tool finally does.",
-          "pitch_angle": "Researchers validated a novel 11-item scale among 830 pandemic-era healthcare workers that quantifies autonomic symptoms alongside nightmares, filling a gap in trauma-related sleep assessment. For clinicians treating veterans or older first responders with PTSD, this tool could offer a more complete picture of treatment response."
-        }
-      ],
-      "run_date": "2026-09-29",
-      "category": "Neurology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42782070",
-      "headline": "Patients choosing between hand surgery and therapy never meet an occupational therapist until after the decision is already made",
-      "journal": "The American Journal of Occupational Therapy",
-      "pubdate": "2026 Sep 24",
-      "doi": "10.1177/19437676261487164",
-      "groundbreaking": "Major elder care or policy implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers from Palestinian clinics argue that occupational therapists should be present at the first surgical consultation for common hand conditions \u2014 such as carpal tunnel syndrome, trigger finger, and thumb base arthritis \u2014 so nonsurgical options receive equal weight in shared decision-making. Drawing on a one-year model piloted in two West Bank clinics where a surgeon and occupational therapist jointly saw patients, the authors describe how co-consultation made shared decision-making concrete. No patient-level outcome data are reported; this is a conceptual and descriptive case for care model reform.",
-      "why_it_matters": "For older adults \u2014 who disproportionately develop thumb base arthritis and other hand conditions \u2014 the timing of when a nonsurgical option is introduced may meaningfully shape treatment choices and recovery paths.",
-      "caveats": "small sample (N<100), single-center, observational design, no age breakdown reported, narrow to West Bank clinical context with limited generalizability to US care systems",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Policy-relevant care model argument; no outcome data, no age breakdown, limited-generalizability setting.",
-      "pitch_angles": [
-        {
-          "publication_type": "MedPage Today",
-          "headline": "Should Occupational Therapists Be in the Room When Patients Decide on Hand Surgery?",
-          "hook": "Patients with hand conditions like trigger finger or thumb arthritis typically meet an occupational therapist only after deciding on surgery \u2014 meaning the nonsurgical option rarely gets a fair hearing.",
-          "pitch_angle": "A Palestinian clinic model of joint surgeon\u2013OT consultations suggests a structural fix to a gap in shared decision-making for common hand conditions. For clinicians treating older adults, where conservative management is often preferred, the timing of OT involvement may be as consequential as the treatment itself."
-        }
-      ],
-      "run_date": "2026-09-29",
-      "category": "Physical and Rehabilitation Medicine",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42785577",
-      "headline": "Emergency rooms give dying patients far less morphine for breathlessness than hospital wards do \u2014 and it's a structural problem, not a patient one",
-      "journal": "Journal of Pain and Symptom Management",
-      "pubdate": "2026 Sep 24",
-      "doi": "10.1016/j.jpainsymman.2026.09.026",
-      "groundbreaking": "Counterintuitive finding / Major elder care or policy implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a retrospective cohort analysis of 250 adults (mean age 83.2 years; 51.2% female) presenting to an emergency department in Israel with dyspnea at the end of life who died during the same hospitalization, comparing morphine administration rates between the ED and subsequent inpatient care. Only 15.2% received morphine in the ED, compared with 68% of the same patients during inpatient admission \u2014 and morphine administration in the ED was not associated with shorter survival. Lung cancer diagnosis and DNR status, rather than symptom severity, predicted who received morphine in the ED, suggesting that underuse reflects structural and cultural barriers in emergency care settings rather than appropriate clinical triage.",
-      "why_it_matters": "For the many older adults who die shortly after an ED visit, this study suggests that the emergency department itself \u2014 not the patient's clinical profile \u2014 is a key barrier to receiving guideline-recommended comfort care for one of the most distressing symptoms at end of life.",
-      "caveats": "observational design, single-center, retrospective, short follow-up, immortal time bias acknowledged by authors in inpatient survival comparison, Israel-based cohort",
-      "fact_check_note": "",
-      "relevance_score": 9,
-      "relevance_score_reason": "Counterintuitive structural finding; older adults N=250, mean age 83, end-of-life care policy hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News",
-          "headline": "The same dying patient who gets morphine on the ward is denied it in the ER \u2014 and a new study shows why",
-          "hook": "Only 15% of dying patients received morphine for severe breathlessness in the emergency department, even though 68% of the very same patients received it within hours of being admitted to a hospital ward.",
-          "pitch_angle": "A retrospective Israeli study of 250 end-of-life patients with a mean age of 83 found that ED morphine underuse was predicted by diagnosis type and DNR status \u2014 not symptom burden \u2014 pointing to structural and cultural barriers in emergency medicine rather than clinical judgment. Crucially, morphine in the ED was not associated with accelerated death, directly countering one of the most common reasons clinicians cite for withholding it."
-        },
-        {
-          "publication_type": "MedPage Today",
-          "headline": "Morphine for dying patients' breathlessness: Why ERs lag far behind inpatient wards",
-          "hook": "A study tracking the same patients across two care settings found a nearly five-fold gap in morphine administration rates between the ED and the inpatient ward for end-of-life dyspnea.",
-          "pitch_angle": "Among 250 patients with a mean age of 83 who died during their hospitalization, only 15% received morphine for dyspnea in the ED versus 68% after admission \u2014 with no survival difference tied to ED administration. The findings suggest that emergency medicine training, institutional culture, and care structures \u2014 not patient factors \u2014 are driving a clinically significant gap in guideline-concordant end-of-life symptom management."
-        },
-        {
-          "publication_type": "The Atlantic",
-          "headline": "Dying in the ER means dying in more pain \u2014 and it doesn't have to",
-          "hook": "For older adults who arrive at the emergency room in their final hours, struggling to breathe, the setting itself may determine whether they receive relief.",
-          "pitch_angle": "A new study found that the emergency department systematically under-delivers morphine for end-of-life breathlessness \u2014 even for the same patients who receive it promptly once admitted to a ward \u2014 and that the drug does not hasten death. As more older Americans die in or shortly after emergency visits, the ER's structural failure to provide comfort care is emerging as a quiet but consequential equity and quality-of-death issue."
-        }
-      ],
-      "run_date": "2026-09-29",
-      "category": "Palliative Care",
       "chunk": "2/2",
       "status": "new"
     },
@@ -7805,33 +8588,6 @@
           "headline": "Cultural shame and loyalty are shaping \u2014 and straining \u2014 Parkinson's caregiving in Asian communities",
           "hook": "A new qualitative study from the Philippines finds that cultural values, not just resource gaps, are driving caregiver exhaustion and delayed care-seeking among Parkinson's families.",
           "pitch_angle": "For elder care administrators and care coordinators working with Filipino or broader Asian communities, the study suggests that standard caregiver support programs may fail if they don't account for deep-seated cultural norms around family obligation and the stigma of seeking outside help. Culturally tailored outreach and multilingual support resources could be a critical gap to address in diverse care settings."
-        }
-      ],
-      "run_date": "2026-09-11",
-      "category": "Neurology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42697258",
-      "headline": "A tiny RNA molecule may dampen brain inflammation after hemorrhagic stroke \u2014 but only in rats and a handful of patients",
-      "journal": "Journal of Stroke and Cerebrovascular Diseases",
-      "pubdate": "2026 Sep 4",
-      "doi": "10.1016/j.jstrokecerebrovasdis.2026.108739",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers measured circulating miR-642b-3p levels in 66 intracerebral hemorrhage (ICH) patients and 70 healthy controls, then tested the microRNA's effect in rat ICH models and cultured microglia. They found miR-642b-3p was lower in ICH patients and that artificially restoring it in rats reduced brain edema, improved neurological scores, and dampened inflammatory cytokines. The proposed mechanism involves suppression of SERPINE1, which normally drives NLRP3 inflammasome activation and pro-inflammatory microglial states.",
-      "why_it_matters": "Identifying the miR-642b-3p/SERPINE1 axis as a potential therapeutic target could eventually inform new treatment strategies for intracerebral hemorrhage, a devastating stroke type with very limited treatment options in older adults.",
-      "caveats": "small sample (N<100), single-center, animal or cell study (rat and cell validation is primary mechanistic evidence), no age breakdown reported, observational design for human component",
-      "fact_check_note": "",
-      "relevance_score": 4,
-      "relevance_score_reason": "Mechanistic animal/cell study with small human correlate; limited direct geriatric elder-care hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News",
-          "headline": "A microRNA found low in hemorrhagic stroke patients could point to a new anti-inflammation target \u2014 if it holds up in humans",
-          "hook": "After decades of failed stroke drug trials, researchers are eyeing a tiny RNA molecule that appears to suppress a key inflammatory pathway after brain bleeds.",
-          "pitch_angle": "Early-stage research combining patient blood samples with rat models suggests that boosting miR-642b-3p could limit the brain swelling and neurological damage that follows intracerebral hemorrhage. The finding is preliminary, but it adds to growing interest in microRNA-based therapies for a type of stroke that currently lacks effective medical treatments."
         }
       ],
       "run_date": "2026-09-11",
@@ -17195,39 +17951,6 @@
       "status": "new"
     },
     {
-      "pmid": "42424747",
-      "headline": "Digital games may catch cognitive decline earlier \u2014 and patients actually keep playing them",
-      "journal": "The Journal of Prevention of Alzheimer's Disease",
-      "pubdate": "2026 Jul 9",
-      "doi": "10.1016/j.tjpad.2026.100642",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers from Massachusetts General Hospital and AbbVie evaluated the MIND GamePack\u00a9, a digital game platform, in 60 participants (both cognitively normal and those with subjective complaints, mild cognitive impairment, or mild dementia) over 3\u20136 months. The platform showed high compliance, strong test-retest reliability (ICC 0.81\u20130.95), and moderate-to-strong correlations with validated neuropsychological tools including the MoCA and RBANS. Participants without cognitive impairment improved on game features over three months, while those with impairment did not, and baseline features distinguished the two groups across nearly all domains.",
-      "why_it_matters": "A digital game platform that older adults are willing to use consistently and that tracks cognitive changes over time could offer a low-burden tool for early Alzheimer's detection and monitoring between clinical visits.",
-      "caveats": "small sample (N<100), short follow-up, industry funding [AbbVie], no age breakdown reported, single-center",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Dementia screening tool with compliance data; small N and industry funding limit score.",
-      "pitch_angles": [
-        {
-          "publication_type": "STAT News",
-          "headline": "Could a digital game replace the clipboard in Alzheimer's screening? Early data are encouraging",
-          "hook": "A game-based cognitive monitoring platform distinguished people with and without cognitive impairment across nearly every domain \u2014 and participants actually kept playing it for months.",
-          "pitch_angle": "Early feasibility data suggest the MIND GamePack may offer a sensitive, patient-friendly alternative to traditional pen-and-paper cognitive screening, with potential for dense longitudinal tracking. The study is small and industry-funded, but the compliance rates stand out in a field where digital health tools often see rapid drop-off."
-        },
-        {
-          "publication_type": "The Atlantic",
-          "headline": "What if the best test for Alzheimer's looked like a game?",
-          "hook": "Researchers found that older adults with early cognitive impairment played digital memory games differently than their healthy peers \u2014 and the gap was detectable at baseline.",
-          "pitch_angle": "As demand grows for unobtrusive, at-home cognitive monitoring tools, game-based platforms offer a compelling model \u2014 one that patients may actually embrace. The bigger question is whether early detection translates to meaningful clinical action."
-        }
-      ],
-      "run_date": "2026-07-14",
-      "category": "Neurology",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
       "pmid": "42426339",
       "headline": "Frailty predicts dementia in men with kidney disease but not in women \u2014 a sex difference that flips the usual frailty story",
       "journal": "GeroScience",
@@ -21231,33 +21954,6 @@
           "headline": "When palliative care goes digital, patients without internet can get left behind",
           "hook": "A case report from one of the country's top cancer centers illustrates how the shift to telehealth-based palliative care is creating new access gaps for patients who lack smartphones, computers, or reliable internet.",
           "pitch_angle": "As health systems invest heavily in digital symptom management and remote palliative consultations, older, rural, and low-income patients \u2014 who disproportionately lack digital access \u2014 may miss critical end-of-life support; this case signals a need for equity-focused care design in palliative programs."
-        }
-      ],
-      "run_date": "2026-07-09",
-      "category": "Palliative Care",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42392237",
-      "headline": "Bereaved family members can strengthen palliative care training \u2014 but only with strong ethical guardrails, analysis finds",
-      "journal": "Journal of Pain and Symptom Management",
-      "pubdate": "2026 Jul 2",
-      "doi": "10.1016/j.jpainsymman.2026.06.018",
-      "groundbreaking": "Major elder care or policy implication",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers at Akron Children's Hospital conducted an ethical analysis of involving bereaved family members \u2014 including a bereaved spouse serving as a parent-actor \u2014 in pediatric palliative care simulation training for medical residents. The analysis, grounded in the principles of beneficence, non-maleficence, autonomy, and justice, found that bereaved educators bring authenticity that deepens learner empathy but that meaningful participation requires trauma-informed recruitment, structured debriefing, appropriate compensation, and access to psychological support. The authors conclude that lived experience constitutes genuine expertise but that its educational value depends entirely on ethically grounded institutional partnerships.",
-      "why_it_matters": "As simulation-based communication training becomes standard in palliative care education, health systems face real ethical obligations to the bereaved individuals they recruit as educators \u2014 obligations that, if unmet, risk re-traumatization and exploitation of vulnerable people.",
-      "caveats": "small sample (N<100), single-center, observational design, self-reported outcomes",
-      "fact_check_note": "Study focuses on pediatric palliative care and bereaved spouses/parents \u2014 not a geriatric population. Relevance to elderly care is limited to transferable lessons for adult palliative care communication training.",
-      "relevance_score": 4,
-      "relevance_score_reason": "Pediatric focus limits geriatric relevance; ethics/training hook has limited elder care application.",
-      "pitch_angles": [
-        {
-          "publication_type": "McKnight's Senior Living",
-          "headline": "Palliative care programs are recruiting bereaved families as trainers \u2014 but ethical protections often lag behind",
-          "hook": "A new ethical analysis from a pediatric palliative care program finds that using bereaved family members to teach clinicians about serious illness conversations can backfire badly without robust institutional safeguards.",
-          "pitch_angle": "The lessons \u2014 including requirements for trauma-informed recruitment, compensation, and psychological support \u2014 apply broadly to adult and elder care palliative training programs increasingly looking to family voices to humanize clinical education."
         }
       ],
       "run_date": "2026-07-09",
